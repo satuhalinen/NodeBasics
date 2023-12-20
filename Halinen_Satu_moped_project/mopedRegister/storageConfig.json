@@ -1,0 +1,5 @@
+{
+    "storageFile": "Halinen_Satu_mopeds.json",
+    "adapterFile": "mopedsAdapter.js",
+    "primary_key": "mopedId"
+}

@@ -1,0 +1,16 @@
+{
+    "port": 3001,
+    "host":"localhost",
+    "storageEngine":{
+        "folder":"jsonStorageEngine",
+        "dataStorageFile":"dataStorageLayer.js"
+    },
+    "storage":{
+        "folder":"mopedRegister",
+        "storageConfigFile":"storageConfig.json"
+    },
+    "library":{
+        "folder":"library",
+        "requestHandler":"libraryForRequestHandling.js"
+    }
+}
