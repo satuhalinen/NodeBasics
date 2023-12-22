@@ -1,12 +1,12 @@
 "use strict";
 
 (function () {
-  let resultarea;
   let mopedIdField;
   let nameField;
   let modelYearField;
   let topspeedField;
   let itemsInStockField;
+  let resultarea;
 
   document.addEventListener("DOMContentLoaded", init);
 

@@ -4,6 +4,7 @@
   let resultarea;
   let inputField;
   document.addEventListener("DOMContentLoaded", init);
+
   function init() {
     resultarea = document.getElementById("resultarea");
     inputField = document.getElementById("mopedId");

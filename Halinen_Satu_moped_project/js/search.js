@@ -19,7 +19,7 @@
         if (keys.length > 0) {
           populateList(keys);
         } else {
-          showErrorMessage("failed communication!");
+          showErrorMessage("search not available");
         }
       } else {
         showErrorMessage("failed communication");

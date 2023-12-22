@@ -4,6 +4,7 @@ const CODES = {
   PROGRAM_ERROR: 0,
   NOT_FOUND: 1,
   INSERT_OK: 2,
+  NOT_INSERTED: 3,
   ALREADY_IN_USE: 4,
   REMOVE_OK: 5,
   NOT_REMOVED: 6,
@@ -16,13 +17,13 @@ const TYPES = {
 
 const MESSAGES = {
   PROGRAM_ERROR: () => ({
-    message: "Sorry! error in the program",
+    message: "Sorry! Error in the program",
     code: CODES.PROGRAM_ERROR,
     type: TYPES.ERROR,
   }),
 
   NOT_FOUND: (key, value) => ({
-    message: `No reouserce found with ${key} ${value}`,
+    message: `No resource found with ${key} ${value}`,
     code: CODES.NOT_FOUND,
     type: TYPES.INFO,
   }),

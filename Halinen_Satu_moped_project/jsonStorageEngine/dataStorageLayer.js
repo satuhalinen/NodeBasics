@@ -41,7 +41,7 @@ function createDataStorage(storagePath, storageConfig) {
           if (!item[primary_key]) {
             reject(MESSAGES.NOT_INSERTED());
           } else if ((await getFromStorage(item[primary_key])).length > 0) {
-            reject(MESSAGES.INSERT_OK(primary_key, item[primary_key]));
+            reject(MESSAGES.ALREADY_IN_USE(item[primary_key]));
           } else if (await addToStorage(item)) {
             resolve(MESSAGES.INSERT_OK(primary_key, item[primary_key]));
           } else {

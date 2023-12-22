@@ -7,7 +7,7 @@ async function readStorage(storageFile) {
     const data = await fs.readFile(storageFile, "utf8");
     return JSON.parse(data);
   } catch (err) {
-    return false;
+    return [];
   }
 }
 async function writeStorage(storageFile, data) {
