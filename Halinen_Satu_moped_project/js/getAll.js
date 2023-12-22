@@ -18,9 +18,7 @@
         tr.appendChild(createCell(moped.itemsInStock));
         resultset.appendChild(tr);
       }
-    } catch (err) {
-      console.log(err);
-    }
+    } catch (err) {}
   }
   function createCell(data) {
     const td = document.createElement("td");

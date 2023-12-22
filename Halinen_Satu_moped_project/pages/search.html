@@ -4,16 +4,20 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Search</title>
+    <link rel="stylesheet" href="/styles/basicStyles.css" />
     <script src="/js/search.js"></script>
   </head>
   <body>
     <main>
       <h1>Search mopeds</h1>
-      <div id="options">
-        <label>Choose key:</label>
-        <select id="keylist"></select>
+      <div>
+        <div id="options">
+          <label class="label">Choose key:</label>
+          <select id="keylist"></select>
+        </div>
+        <label class="label">Value: </label>
+        <input type="text" id="searchvalue" />
       </div>
-      <label>Value: <input type="text" id="searchvalue" /></label>
       <button id="submit">Submit</button>
       <section id="resultarea"></section>
       <a href="/"><button>Menu</button></a>
