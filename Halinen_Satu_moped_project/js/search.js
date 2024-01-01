@@ -66,6 +66,7 @@
     } else if (data.length === 0) {
       showErrorMessage("Nothing found");
     } else {
+      resultarea.removeAttribute("class");
       const htmlString = data.map((item) => createMoped(item)).join("");
       resultarea.innerHTML = htmlString;
     }
@@ -81,6 +82,7 @@
     <div>`;
   }
   function showErrorMessage(message) {
-    resultarea.innerHTML = `<p>${message}</p>`;
+    resultarea.innerHTML = `<h1>Error</h1><p>${message}</p>`;
+    resultarea.setAttribute("class", "error");
   }
 })();

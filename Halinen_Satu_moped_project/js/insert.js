@@ -57,7 +57,11 @@
   }
 
   function updateStatus(status) {
-    resultarea.textContent = status.message;
+    if (status.type === "error") {
+      resultarea.innerHTML = `<h1>Error</h1><p>${status.message}</p>`;
+    } else {
+      resultarea.textContent = status.message;
+    }
     resultarea.setAttribute("class", status.type);
   }
 })();

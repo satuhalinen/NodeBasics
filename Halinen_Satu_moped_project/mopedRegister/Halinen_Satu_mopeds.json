@@ -1,51 +1,51 @@
 [
     {
-    "mopedId":7,
-    "name": "Grampa 89",
-    "modelYear":2011,
-    "topspeed":5,
-    "itemsInStock":100
+        "mopedId": 7,
+        "name": "Grampa 89",
+        "modelYear": 2011,
+        "topspeed": 5,
+        "itemsInStock": 100
     },
     {
-    "mopedId":1,
-    "name": "Xross 3",
-    "modelYear":2015,
-    "topspeed":30,
-    "itemsInStock":70
+        "mopedId": 1,
+        "name": "Xross 3",
+        "modelYear": 2015,
+        "topspeed": 30,
+        "itemsInStock": 70
     },
     {
-    "mopedId":3,
-    "name": "MotoX 2000",
-    "modelYear":2012,
-    "topspeed":25,
-    "itemsInStock":50
+        "mopedId": 3,
+        "name": "MotoX 2000",
+        "modelYear": 2012,
+        "topspeed": 25,
+        "itemsInStock": 50
     },
     {
-    "mopedId":2,
-    "name": "Skooter 95",
-    "modelYear":1995,
-    "topspeed":20,
-    "itemsInStock":350
+        "mopedId": 2,
+        "name": "Skooter 95",
+        "modelYear": 1995,
+        "topspeed": 20,
+        "itemsInStock": 350
     },
     {
-    "mopedId":6,
-    "name": "Daddy 1",
-    "modelYear":2017,
-    "topspeed":10,
-    "itemsInStock":150
+        "mopedId": 6,
+        "name": "Daddy 1",
+        "modelYear": 2017,
+        "topspeed": 10,
+        "itemsInStock": 150
     },
     {
-    "mopedId":4,
-    "name": "Mummy 10",
-    "modelYear":1990,
-    "topspeed":15,
-    "itemsInStock":30
+        "mopedId": 4,
+        "name": "Mummy 10",
+        "modelYear": 1990,
+        "topspeed": 15,
+        "itemsInStock": 30
     },
     {
-    "mopedId":5,
-    "name": "MaxNoise 120",
-    "modelYear":2010,
-    "topspeed":40,
-    "itemsInStock":130
+        "mopedId": 5,
+        "name": "MaxNoise 120",
+        "modelYear": 2010,
+        "topspeed": 40,
+        "itemsInStock": 130
     }
-    ]
+]

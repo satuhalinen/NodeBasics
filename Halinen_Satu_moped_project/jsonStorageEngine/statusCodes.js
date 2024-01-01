@@ -37,7 +37,7 @@ const MESSAGES = {
     code: CODES.NOT_INSERTED,
     type: TYPES.ERROR,
   }),
-  ALREADY_IN_USE: (value) => ({
+  ALREADY_IN_USE: (key) => ({
     message: `Key ${key} was already in use`,
     code: CODES.ALREADY_IN_USE,
     type: TYPES.ERROR,
